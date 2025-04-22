@@ -63,8 +63,8 @@ def read_passages(path_data, path_label, test_size=0):
 
 
 
-path_train = os.path.join('.','test.csv')
-path_label = os.path.join('.', 'label.json')
+path_train = os.path.join('data','test.csv')
+path_label = os.path.join('data', 'label.json')
 
 print('[{}] start main_train_and_evaluate with {} {}'.format(get_ts(), path_train, path_label))
 
