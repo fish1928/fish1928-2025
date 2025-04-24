@@ -126,8 +126,6 @@ class SimpleBertClassifier(torch.nn.Module):
         # end
 
         labels = self.labels_output_classifier
-        print(len(outputs))
-        print(outputs[0].shape)
 
         if need_raw:
             info_result = {
